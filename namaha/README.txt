@@ -109,6 +109,9 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.0.54
+* Tweak: Refactored code to better allow for the creation of child themes
+
 #### 1.0.53
 * Fix: Fixed an issue with the styling of the Gutenberg content editor
 

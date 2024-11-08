@@ -4,7 +4,7 @@
  *
  * @package Namaha
  */
-define( 'NAMAHA_THEME_VERSION' , '1.0.53' );
+define( 'NAMAHA_THEME_VERSION' , '1.0.54' );
 
 global $solidify_breakpoint, $mobile_menu_breakpoint, $demo_slides;
 
@@ -623,17 +623,20 @@ add_action( 'woocommerce_before_shop_loop_item_title', function() {
 }, 11 );
 
 // Set the number or products per page
-function namaha_loop_shop_per_page( $cols ) {
-	// $cols contains the current number of products per page based on the value stored on Options -> Reading
-	// Return the number of products you wanna show per page.
-	$cols = get_theme_mod( 'namaha-woocommerce-products-per-page' );
-	
-	return $cols;
+
+if ( ! function_exists( 'namaha_loop_shop_per_page' ) ) {
+	function namaha_loop_shop_per_page( $cols ) {
+		// $cols contains the current number of products per page based on the value stored on Options -> Reading
+		// Return the number of products you wanna show per page.
+		$cols = get_theme_mod( 'namaha-woocommerce-products-per-page' );
+		
+		return $cols;
+	}
 }
 add_filter( 'loop_shop_per_page', 'namaha_loop_shop_per_page', 20 );
 
 // Product thumbnails
-if (!function_exists('namaha_woocommerce_product_thumbnails_columns')) {
+if ( ! function_exists( 'namaha_woocommerce_product_thumbnails_columns' ) ) {
 	function namaha_woocommerce_product_thumbnails_columns() {
 		return 3;
 	}
@@ -641,13 +644,15 @@ if (!function_exists('namaha_woocommerce_product_thumbnails_columns')) {
 add_filter ( 'woocommerce_product_thumbnails_columns', 'namaha_woocommerce_product_thumbnails_columns' );
 
 // Display an Out of Stock label on out of stock products
-function namaha_out_of_stock_notice() {
-    global $product;
-    if ( !$product->is_in_stock() ) {
-		echo '<p class="stock out-of-stock">';
-		echo __( 'Out of Stock', 'namaha' );
-		echo '</p>';
-    }
+if ( ! function_exists( 'namaha_out_of_stock_notice' ) ) {
+	function namaha_out_of_stock_notice() {
+	    global $product;
+	    if ( !$product->is_in_stock() ) {
+			echo '<p class="stock out-of-stock">';
+			echo __( 'Out of Stock', 'namaha' );
+			echo '</p>';
+	    }
+	}
 }
 add_action( 'woocommerce_after_shop_loop_item_title', 'namaha_out_of_stock_notice', 10 );
 
