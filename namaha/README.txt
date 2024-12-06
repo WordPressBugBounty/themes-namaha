@@ -109,6 +109,9 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.0.56
+* New: Added smooth scrolling for scrollable elements
+
 #### 1.0.55
 * Compatibility update
 
