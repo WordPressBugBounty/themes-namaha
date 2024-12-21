@@ -4,7 +4,7 @@
  *
  * @package Namaha
  */
-define( 'NAMAHA_THEME_VERSION' , '1.0.56' );
+define( 'NAMAHA_THEME_VERSION' , '1.0.57' );
 
 global $solidify_breakpoint, $mobile_menu_breakpoint, $demo_slides;
 
@@ -229,7 +229,7 @@ function namaha_admin_notice() {
 	$user_id = get_current_user_id();
 	
 	$message = array (
-		'id' => 21,
+		'id' => 22,
 		'heading' => 'Christmas Sale',
 		//'text' => '<a href="https://www.outtheboxthemes.com/go/theme-notification-black-friday-2024-wordpress-themes/">Get 40% off any of our Premium WordPress themes this Black Friday!</a>',
 		'text' => '<a href="https://www.outtheboxthemes.com/go/theme-notification-christmas-day-2024-wordpress-themes/" target="_blank"><span style="font-size: 20px">🎄</span>Get 20% off any of our Premium WordPress themes until Christmas Day!<span style="font-size: 20px">🎄</span></a>',
