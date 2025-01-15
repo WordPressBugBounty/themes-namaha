@@ -109,6 +109,9 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.0.58
+* Updated the translation file
+
 #### 1.0.57
 * Tweak: File cleanup
 
