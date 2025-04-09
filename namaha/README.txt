@@ -2,7 +2,7 @@
 Contributors: outtheboxthemes
 Donate link: 
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, wide-blocks, e-commerce, entertainment, portfolio
-Tested up to: 6.7
+Tested up to: 6.8
 Requires at least: 4.7
 Requires PHP: 5.3
 Stable tag: 3.7
@@ -108,6 +108,9 @@ View the theme settings under "Appearance" -> Customize.
 2. Featured Images work best at a minimum of 1100 wide and 420 high.
 
 == Changelog ==
+
+#### 1.0.59
+* Compatibility update
 
 #### 1.0.58
 * Updated the translation file
