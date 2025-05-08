@@ -4,7 +4,7 @@
  *
  * @package Namaha
  */
-define( 'NAMAHA_THEME_VERSION' , '1.0.59' );
+define( 'NAMAHA_THEME_VERSION' , '1.0.60' );
 
 global $solidify_breakpoint, $mobile_menu_breakpoint, $demo_slides;
 

@@ -109,6 +109,9 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.0.60
+* Removed superfluous files
+
 #### 1.0.59
 * Compatibility update
 
