@@ -109,6 +109,10 @@ View the theme settings under "Appearance" -> Customize.
 
 == Changelog ==
 
+#### 1.0.61
+* PREMIUM: Optional Quick View button now available for WooCommerce product listings
+* Fix: Sale badge no longer misaligned on shop page
+
 #### 1.0.60
 * Removed superfluous files
 
