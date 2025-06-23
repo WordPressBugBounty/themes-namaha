@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: namaha\n"
-"POT-Creation-Date: 2025-06-08 13:43+0200\n"
+"POT-Creation-Date: 2025-06-23 10:24+0200\n"
 "PO-Revision-Date: 2021-11-08 10:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: Out the Box\n"
@@ -327,7 +327,7 @@ msgstr ""
 msgid "BBPress"
 msgstr ""
 
-#: customizer/customizer-options.php:531 functions.php:858
+#: customizer/customizer-options.php:531 functions.php:862
 msgid "BookingPress"
 msgstr ""
 
@@ -559,7 +559,7 @@ msgstr ""
 msgid "Header image has a minimum width"
 msgstr ""
 
-#: customizer/customizer-options.php:967 functions.php:863
+#: customizer/customizer-options.php:967 functions.php:867
 msgid "WooCommerce"
 msgstr ""
 
@@ -711,27 +711,27 @@ msgstr ""
 msgid "Footer Bottom Bar - Right"
 msgstr ""
 
-#: functions.php:652
+#: functions.php:656
 msgid "Out of Stock"
 msgstr ""
 
-#: functions.php:833
+#: functions.php:837
 msgid "Elementor"
 msgstr ""
 
-#: functions.php:838
+#: functions.php:842
 msgid "SiteOrigin Widgets Bundle"
 msgstr ""
 
-#: functions.php:843
+#: functions.php:847
 msgid "Recent Posts Widget Extended"
 msgstr ""
 
-#: functions.php:848
+#: functions.php:852
 msgid "WPForms"
 msgstr ""
 
-#: functions.php:853
+#: functions.php:857
 msgid "Photo Gallery by Supsystic"
 msgstr ""
 

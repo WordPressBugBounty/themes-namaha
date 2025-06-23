@@ -4,7 +4,7 @@
  *
  * @package Namaha
  */
-define( 'NAMAHA_THEME_VERSION' , '1.0.61' );
+define( 'NAMAHA_THEME_VERSION' , '1.0.62' );
 
 global $solidify_breakpoint, $mobile_menu_breakpoint, $demo_slides;
 
@@ -322,6 +322,10 @@ function namaha_theme_scripts() {
     	wp_enqueue_style( 'namaha-woocommerce-custom', get_template_directory_uri().'/library/css/woocommerce-custom.css', array(), NAMAHA_THEME_VERSION );
 	}
 
+	if ( class_exists( 'Wp_Travel_Engine' ) ) {
+		wp_enqueue_style( 'namaha-wp-travel-engine', get_template_directory_uri().'/library/css/wp-travel-engine.css', array(), NAMAHA_THEME_VERSION );
+	}
+	
 	wp_enqueue_script( 'namaha-navigation', get_template_directory_uri() . '/library/js/navigation.js', array(), NAMAHA_THEME_VERSION, true );
 	wp_enqueue_script( 'caroufredsel', get_template_directory_uri() . '/library/js/jquery.carouFredSel-6.2.1-packed.js', array('jquery'), NAMAHA_THEME_VERSION, true );
 	wp_enqueue_script( 'namaha-touchswipe', get_template_directory_uri() . '/library/js/jquery.touchSwipe.min.js', array('jquery'), NAMAHA_THEME_VERSION, true );
