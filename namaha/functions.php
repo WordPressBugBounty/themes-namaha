@@ -4,7 +4,7 @@
  *
  * @package Namaha
  */
-define( 'NAMAHA_THEME_VERSION' , '1.0.62' );
+define( 'NAMAHA_THEME_VERSION' , '1.0.63' );
 
 global $solidify_breakpoint, $mobile_menu_breakpoint, $demo_slides;
 
@@ -140,6 +140,9 @@ function namaha_theme_setup() {
 }
 endif; // namaha_theme_setup
 add_action( 'after_setup_theme', 'namaha_theme_setup' );
+
+// Unhide modern markup setting in admin
+add_filter( 'wpforms_admin_settings_modern_markup_register_field_is_hidden', '__return_false' );
 
 if ( ! function_exists( 'namaha_fonts_url' ) ) :
 	/**
