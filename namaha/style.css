@@ -4,7 +4,7 @@ Theme URI: https://www.outtheboxthemes.com/wordpress-themes/namaha/
 Author: Out the Box
 Author URI: https://www.outtheboxthemes.com/
 Description: Balanced & Beautiful. Namaha is a beautifully designed WordPress theme with minimalist zen design elements that provide a clean platform from which to promote your offering. Its quiet personality speaks volumes without saying a word, letting your products, services and brand take center stage on your site. This understated attitude makes it perfect for just about any type of website, online shop or blog particularly those in the yoga, health, nutritionist, wellness, coaching, meditation, spiritual, feng shui, spa, fitness, mentor, dietitian, therapist, psychologist, personal development or motivational speaker industries.
-Version: 1.0.63
+Version: 1.0.64
 Tested up to: 6.8
 Requires at least: 4.7
 Requires PHP: 5.3
@@ -6126,7 +6126,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 .header-image .overlay .opacity h1,
 .header-image .overlay .opacity h2,
 .slider-container.default .slider .slide .overlay .opacity h1,
-.slider-container.default .slider .slide .overlay .opacity h2 {
+.slider-container.default .slider .slide .overlay .opacity h2,
+.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title {
     font-family: 'Lato', sans-serif;
 }
 
@@ -6136,6 +6137,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 .namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
 .namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
 .namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title,
 html #jp-relatedposts h3.jp-relatedposts-headline em,
 .widget-area .widget h2,
 .site-footer-widgets ul li h2.widgettitle,
@@ -6149,6 +6151,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 .namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
 .namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
 .namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title,
 .widget-area .widget h2,
 .site-footer-widgets ul li h2.widgettitle,
 .site-footer-widgets ul li .wp-block-heading,
@@ -6164,7 +6167,8 @@ h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 .namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
 .namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
-.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a {
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title {
     color: #8D9C71;
 }
 
@@ -6189,6 +6193,7 @@ textarea,
 .namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
 .namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
 .namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-description,
 html #jp-relatedposts h3.jp-relatedposts-headline {
     font-family: 'Lato', sans-serif;
 }
@@ -6201,7 +6206,8 @@ div.wpforms-container form.wpforms-form .wpforms-field-label,
 #cancel-comment-reply-link,
 .site-footer-widgets .widget a,
 .namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
-.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
+.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-description {
 	font-weight: 400;
 }
 
@@ -6209,6 +6215,7 @@ div.wpforms-container form.wpforms-form .wpforms-field-label,
 body,
 .namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
 .namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
+.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-description,
 .widget_namaha_social_media_links_widget .social-links li a,
 .breadcrumbs,
 .main-navigation ul ul a,
@@ -6314,7 +6321,8 @@ textarea,
 #add_payment_method #payment div.payment_box,
 .woocommerce-checkout #payment div.payment_box,
 .namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
-.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {
+.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
+.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-description {
 	letter-spacing: 0;
 }
 

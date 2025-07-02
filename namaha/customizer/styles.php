@@ -950,6 +950,7 @@ function namaha_customizer_library_build_styles() {
     			.header-image .overlay .opacity h2,
     			.slider-container.default .slider .slide .overlay-container .overlay .opacity h1,
 				.slider-container.default .slider .slide .overlay-container .overlay .opacity h2,
+    			.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title,
     			
 				.namaha-bookingpress-use-theme-styles .bpa-front-tabs .bpa-front-module-heading,
 				.namaha-bookingpress-use-theme-styles .bpa-front-module-heading,
@@ -986,6 +987,7 @@ function namaha_customizer_library_build_styles() {
 	            .namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
 				.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
 				.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+	            .namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title,
 	            html #jp-relatedposts h3.jp-relatedposts-headline em,
 	            .widget-area .widget h2,
 				.site-footer-widgets ul li h2.widgettitle'
@@ -1011,7 +1013,8 @@ function namaha_customizer_library_build_styles() {
 				h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
     			.namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
     			.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title,
-				.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a'
+				.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title a,
+    			.namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-title'
     		),
     		'declarations' => array(
     			'color' => $sanfontcolor
@@ -1047,6 +1050,7 @@ function namaha_customizer_library_build_styles() {
 				.namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
 				.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
 				.namaha-page-builders-use-theme-styles .elementor-widget-heading .elementor-heading-title,
+	            .namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-description,
 	            
 				.namaha-bookingpress-use-theme-styles .bpa-front-tmc__head .bpa-front-tmc__title,
 				.namaha-bookingpress-use-theme-styles .bpa-front-cancel-module-container .bpa-front-cmc__title,
@@ -1271,6 +1275,7 @@ function namaha_customizer_library_build_styles() {
                 .site-content .rpwe-time:after,
 				.namaha-page-builders-use-theme-styles .elementor-widget-text-editor,
 				.namaha-page-builders-use-theme-styles .elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description,
+                .namaha-page-builders-use-theme-styles .elementor-widget-image-box .elementor-image-box-description,
                 .wp-block-quote cite'
             ),
             'declarations' => array(
