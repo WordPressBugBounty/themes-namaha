@@ -4,7 +4,7 @@
  *
  * @package Namaha
  */
-define( 'NAMAHA_THEME_VERSION' , '1.0.64' );
+define( 'NAMAHA_THEME_VERSION' , '1.0.65' );
 
 global $solidify_breakpoint, $mobile_menu_breakpoint, $demo_slides;
 
@@ -316,7 +316,7 @@ function namaha_theme_scripts() {
 	} else if ( get_theme_mod( 'namaha-font-awesome-version', customizer_library_get_default( 'namaha-font-awesome-version' ) ) == '5.5.0' ) {
 		wp_enqueue_style( 'otb-font-awesome', '//use.fontawesome.com/releases/v5.5.0/css/all.css', array(), '5.5.0' );
 	} else {
-		wp_enqueue_style( 'otb-font-awesome', '//use.fontawesome.com/releases/v6.5.1/css/all.css', array(), '6.5.1' );
+		wp_enqueue_style( 'otb-font-awesome', '//use.fontawesome.com/releases/v6.7.2/css/all.css', array(), '6.7.2' );
 	}
 	
 	wp_enqueue_style( 'namaha-style', get_stylesheet_uri(), array(), NAMAHA_THEME_VERSION );
