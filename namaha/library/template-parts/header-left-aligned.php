@@ -1,19 +1,11 @@
 <?php
 $logo = '';
-$logo_link_content = '';
-
-if ( get_theme_mod( 'namaha-logo-link-content', customizer_library_get_default( 'namaha-logo-link-content' ) ) == "" ) {
-	$logo_link_content = home_url( '/' );
-} else {
-	$logo_link_content = get_permalink( get_theme_mod( 'namaha-logo-link-content' ) );
-}
+$logo_link_content = home_url( '/' );
 
 if ( function_exists( 'has_custom_logo' ) ) {
 	if ( has_custom_logo() ) {
 		$logo = get_custom_logo();
 	}
-} else if ( get_theme_mod( 'namaha-logo' ) ) {
-	$logo = "<a href=\"". esc_url( $logo_link_content ) ."\" class=\"custom-logo-link\"><img src=\"". esc_url( get_theme_mod( 'namaha-logo' ) ) ."\" alt=\"". esc_attr( get_bloginfo( 'name' ) ) .' - '. esc_attr( get_bloginfo( 'description', 'display' ) ) ."\" class=\"custom-logo\" /></a>";
 }
 
 $branding_classes = array();

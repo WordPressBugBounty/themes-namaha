@@ -2,7 +2,7 @@
 Contributors: outtheboxthemes
 Donate link: 
 Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, wide-blocks, e-commerce, entertainment, portfolio
-Tested up to: 6.8
+Tested up to: 6.9
 Requires at least: 4.7
 Requires PHP: 5.3
 Stable tag: 3.7
@@ -11,11 +11,13 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Balanced & Beautiful. Namaha is a beautifully designed WordPress theme with minimalist zen design elements that provide a clean platform from which to promote your offering. Its quiet personality speaks volumes without saying a word, letting your products, services and brand take center stage on your site. This understated attitude makes it perfect for just about any type of website, online shop or blog particularly those in the yoga, health, nutritionist, wellness, coaching, meditation, spiritual, feng shui, spa, fitness, mentor, dietitian, therapist, psychologist, personal development or motivational speaker industries.
+Namaha is a clean, minimalist and fully responsive WordPress theme designed for yoga studios, wellness coaches, spiritual teachers and mindfulness websites. It provides a calm and flexible layout that supports class schedules, events, retreats, blogs and community pages.
+
+Namaha integrates smoothly with popular plugins such as Elementor, WPForms and a variety of scheduling and booking plugins. With simple customization options and a peaceful, uncluttered design, Namaha offers a modern foundation for building yoga, wellness and spirituality-focused websites.
 
 == License ==
 
-Namaha WordPress Theme, Copyright 2022 Out the Box.
+Namaha WordPress Theme, Copyright 2025 Out the Box.
 Namaha is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -108,6 +110,28 @@ View the theme settings under "Appearance" -> Customize.
 2. Featured Images work best at a minimum of 1100 wide and 420 high.
 
 == Changelog ==
+
+#### 1.0.71
+* Tweak: Improved slider image loading to reduce layout shift and improve page load performance
+
+#### 1.0.70
+* Tweak: Improved header image performance by optimizing loading, decoding and fetch priority
+
+#### 1.0.69
+* Tweak: Enhanced skip-to-content accessibility support for improved compatibility with accessibility plugins such as EqualWeb
+
+#### 1.0.68
+* PREMIUM: Added a Retina Logo (2×) setting with smart srcset support for improved sharpness on high-resolution displays
+* WordPress 6.9 compatibility update
+* Tweak: Improved WordPress core logo output so the default alt text now correctly uses the site title only, following modern SEO and accessibility standards
+* Tweak: Removed legacy logo fallback code and simplified mobile logo conditions for cleaner, modern WordPress compatibility
+
+#### 1.0.67
+* PREMIUM: Added Logo Width and Mobile Logo Width settings
+* Tweak: Improved code security by adding sanitization to URL parameters
+
+#### 1.0.66
+* New: Added a theme setting under Privacy & Legal to toggle the display of the reCAPTCHA badge
 
 #### 1.0.65
 * New: Updated the latest Font Awesome version to 6.7.2

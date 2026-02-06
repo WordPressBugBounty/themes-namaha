@@ -70,15 +70,6 @@ function namaha_customizer_library_options() {
 		'priority' => '25'
 	);
 	
-	if ( ! function_exists( 'has_custom_logo' ) ) {
-		$options['namaha-logo'] = array(
-			'id' => 'namaha-logo',
-			'label'   => __( 'Logo', 'namaha' ),
-			'section' => $section,
-			'type'    => 'image'
-		);
-	}
-	
     $options['namaha-site-branding-contained'] = array(
     	'id' => 'namaha-site-branding-contained',
     	'label'   => __( 'Contained', 'namaha' ),
@@ -1181,6 +1172,24 @@ function namaha_customizer_library_options() {
         'type'    => 'textarea',
         'default' => __( 'The page you were looking for cannot be found!', 'namaha' )
     );
+
+    // Privacy & Legal Settings
+    $section = 'namaha-privacy-and-legal';
+    
+    $sections[] = array(
+    	'id' => $section,
+    	'title' => __( 'Privacy & Legal', 'namaha' ),
+    	'priority' => '50'
+    );
+
+	$options['namaha-show-recaptcha-badge'] = array(
+    	'id' => 'namaha-show-recaptcha-badge',
+    	'label'   => __( 'Show reCAPTCHA badge', 'namaha' ),
+    	'section' => $section,
+    	'type'    => 'checkbox',
+    	'default' => 1,
+		'description' => __( '<p>Uncheck this only if you have added the required Google attribution text near your contact forms</p>', 'namaha' )
+	);
     
     // Gutenberg Settings
     $section = 'namaha-gutenberg';

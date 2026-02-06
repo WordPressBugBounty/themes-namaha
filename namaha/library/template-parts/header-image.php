@@ -33,7 +33,7 @@ $overlay_text 	   = !empty($header_image_text) ? trim( $header_image_text ) : ''
 <div class="header-image-padder">
 	<div class="header-image loading">
 	
-		<img src="<?php echo esc_url( $src ); ?>" alt="<?php echo esc_attr( $alt_text ); ?>" width="<?php echo $width; ?>" height="<?php echo $height; ?>" />
+		<img src="<?php echo esc_url( $src ); ?>" alt="<?php echo esc_attr( $alt_text ); ?>" width="<?php echo esc_attr( $width ); ?>" height="<?php echo esc_attr( $height ); ?>" loading="eager" decoding="async" fetchpriority="high" />
 		<div class="opacity"></div>
 		
 		<?php

@@ -144,7 +144,7 @@ if ( ( $show_slider || $show_header_image ) && !$show_site_intro ) {
 
 <div class="content-container <?php echo implode( ' ', $content_container_classes ); ?>">
 	<div id="content" class="site-content site-container <?php echo esc_attr( ( $no_sidebar ) ? 'no-sidebar' : '' ); ?>">
-		<a name="site-content"></a>
+		<a id="site-content" name="site-content" tabindex="-1"></a>
 
 		<?php
 		if ( $show_site_intro ) {
