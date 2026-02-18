@@ -64,7 +64,6 @@ elseif ( $slider_type == 'default' ) :
 								'decoding'      => 'async',
 								'loading'       => $is_first ? 'eager' : 'lazy',
 								'fetchpriority' => $is_first ? 'high' : 'low',
-								// Optional: helps responsive images behave predictably.
 								'sizes'         => '100vw',
 							);
 						?>

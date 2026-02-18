@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Namaha 1.0.71\n"
+"Project-Id-Version: Namaha 1.0.72\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/namaha\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-01-28T18:37:49+02:00\n"
+"POT-Creation-Date: 2026-02-19T00:09:18+02:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: namaha\n"
@@ -1325,6 +1325,10 @@ msgstr ""
 msgid "Checkout"
 msgstr ""
 
+#: library/template-parts/navigation-menu.php:37
+msgid "Navigation menu"
+msgstr ""
+
 #: library/template-parts/shop-links.php:7
 msgid "My Account"
 msgstr ""
@@ -1333,7 +1337,7 @@ msgstr ""
 msgid "Sign In&nbsp;&nbsp;|&nbsp;&nbsp;Register"
 msgstr ""
 
-#: library/template-parts/slider.php:149
+#: library/template-parts/slider.php:148
 msgid "Demo Slide"
 msgstr ""
 
