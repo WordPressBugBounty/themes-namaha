@@ -34,7 +34,7 @@ if ( function_exists( 'max_mega_menu_is_enabled' ) && max_mega_menu_is_enabled( 
 		tabindex="0"
 		aria-expanded="false"
 		aria-controls="main-menu"
-		aria-label="<?php esc_attr_e( 'Navigation menu', 'namaha' ); ?>"
+		aria-label="<?php esc_attr_e( 'Navigation menu', 'panoramic' ); ?>"
 	>
 		<i class="<?php echo esc_attr( $font_awesome_code ); ?> <?php echo esc_attr( $font_awesome_icon_prefix ); ?>fa-bars"></i>
 	</span>

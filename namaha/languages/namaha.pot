@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v3 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Namaha 1.0.72\n"
+"Project-Id-Version: Namaha 1.0.73\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/namaha\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-02-19T00:09:18+02:00\n"
+"POT-Creation-Date: 2026-03-17T11:58:54+02:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: namaha\n"
@@ -338,7 +338,7 @@ msgid "BBPress"
 msgstr ""
 
 #: customizer/customizer-options.php:522
-#: functions.php:1083
+#: functions.php:1087
 msgid "BookingPress"
 msgstr ""
 
@@ -546,7 +546,7 @@ msgid "Header image has a minimum width"
 msgstr ""
 
 #: customizer/customizer-options.php:958
-#: functions.php:1088
+#: functions.php:1092
 msgid "WooCommerce"
 msgstr ""
 
@@ -746,23 +746,23 @@ msgstr ""
 msgid "Out of Stock"
 msgstr ""
 
-#: functions.php:1058
+#: functions.php:1062
 msgid "Elementor"
 msgstr ""
 
-#: functions.php:1063
+#: functions.php:1067
 msgid "SiteOrigin Widgets Bundle"
 msgstr ""
 
-#: functions.php:1068
+#: functions.php:1072
 msgid "Recent Posts Widget Extended"
 msgstr ""
 
-#: functions.php:1073
+#: functions.php:1077
 msgid "WPForms"
 msgstr ""
 
-#: functions.php:1078
+#: functions.php:1082
 msgid "Photo Gallery by Supsystic"
 msgstr ""
 
@@ -1323,10 +1323,6 @@ msgstr ""
 
 #: library/template-parts/header-cart-contents.php:21
 msgid "Checkout"
-msgstr ""
-
-#: library/template-parts/navigation-menu.php:37
-msgid "Navigation menu"
 msgstr ""
 
 #: library/template-parts/shop-links.php:7

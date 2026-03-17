@@ -4,7 +4,7 @@
  *
  * @package Namaha
  */
-define( 'NAMAHA_THEME_VERSION' , '1.0.72' );
+define( 'NAMAHA_THEME_VERSION' , '1.0.73' );
 
 global $solidify_breakpoint, $mobile_menu_breakpoint, $demo_slides;
 
@@ -899,6 +899,10 @@ if ( ! function_exists( 'namaha_out_of_stock_notice' ) ) {
 	}
 }
 add_action( 'woocommerce_after_shop_loop_item_title', 'namaha_out_of_stock_notice', 10 );
+
+if ( class_exists( 'WPO_WCPDF' ) && file_exists( get_template_directory() . '/library/includes/woocommerce-pdf-invoices.php' ) ) {
+	require get_template_directory() . '/library/includes/woocommerce-pdf-invoices.php';
+}
 
 // Set the blog excerpt length
 function namaha_excerpt_length( $length ) {
