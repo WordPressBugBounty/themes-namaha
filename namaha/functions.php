@@ -4,7 +4,7 @@
  *
  * @package Namaha
  */
-define( 'NAMAHA_THEME_VERSION' , '1.0.73' );
+define( 'NAMAHA_THEME_VERSION' , '1.0.74' );
 
 global $solidify_breakpoint, $mobile_menu_breakpoint, $demo_slides;
 
@@ -902,6 +902,23 @@ add_action( 'woocommerce_after_shop_loop_item_title', 'namaha_out_of_stock_notic
 
 if ( class_exists( 'WPO_WCPDF' ) && file_exists( get_template_directory() . '/library/includes/woocommerce-pdf-invoices.php' ) ) {
 	require get_template_directory() . '/library/includes/woocommerce-pdf-invoices.php';
+}
+
+/**
+ * Display product SKU below invoice item meta.
+ */
+add_action( 'wpo_wcpdf_after_item_meta', 'otb_wcpdf_display_product_sku', 10, 3 );
+
+function otb_wcpdf_display_product_sku( $document_type, $item, $order ) {
+	if ( empty( $item['product'] ) || ! is_object( $item['product'] ) ) {
+		return;
+	}
+
+	$sku = $item['product']->get_sku();
+
+	if ( ! empty( $sku ) ) {
+		echo '<div class="otb-wcpdf-product-sku">' . esc_html__( 'SKU:', 'namaha' ) . ' ' . esc_html( $sku ) . '</div>';
+	}
 }
 
 // Set the blog excerpt length
